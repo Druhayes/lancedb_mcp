@@ -1,0 +1,26 @@
+[project]
+name = "lancedb-mcp"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "lancedb>=0.24.3",
+    "pdfplumber>=0.11.7",
+    "python-dotenv>=1.1.1",
+    "sympy>=1.14.0",
+    "torch>=2.8.0",
+    "typer>=0.16.1",
+    "fastapi>=0.115.0",
+    "uvicorn[standard]>=0.32.0",
+    "transformers>=4.45.0",
+    "slowapi>=0.1.9",
+    "python-jose[cryptography]>=3.3.0",
+    "python-multipart>=0.0.9",
+    "tenacity>=8.2.3",
+    "pydantic>=2.5.0,<3.0.0",
+    "numpy>=1.26.4",
+    "pandas>=2.1.4",
+    "sentence-transformers>=2.2.2",
+    "ipython>=9.4.0",
+]
